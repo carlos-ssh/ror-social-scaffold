@@ -4,15 +4,11 @@
     <div class="user-name">
       <%= friend_request.name %>
     </div>
-    
     <div class="user-content">
-      <span class="user-state">
-        <%= confirm_friend(friend_request) %>
-      </span>
-      <span class="user-state">
-        <%= decline_friend(friend_request) %>
-      </span>
+      <span class="user-state"> <%= confirm_friend(friend_request) %> </span>
+      <span class="user-state"> <%= decline_friend(friend_request) %> </span>
     </div>
+
   </li>
   <% end %>
 </ul>
