@@ -38,4 +38,9 @@ class User < ApplicationRecord
     friends.include?(user)
   end
 
+  def friend_names
+    friends_array = friendships.map {|frienship| frienship.friend if friendship.confirmed }
+    friends_array += inverse_friendships.map {|frienship| frienship.friend if friendship.confirmed }
+    friends_array.compact
+  end
 end

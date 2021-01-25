@@ -1,0 +1,19 @@
+<h1 class="friends-title">Friends List</h1>
+<ul class="users-section">
+  <% @friends.each do |friendship| %>
+    <li>
+      <div class='user-name'>
+        <%= friend.name(friendship) %>
+      </div>
+
+      <div class="user-content">
+        <span class="user-state">
+          <%= delete_friend(friendship)%>
+        </span>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
+<%= display_friend_requests_h2(@friend_requests) %>
+<%= render 'friend_requests' %>
