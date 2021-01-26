@@ -264,7 +264,7 @@ DEPENDENCIES
   rails (~> 5.2.4)
   rspec
   rspec-rails
-  rubocop
+  rubocop (~> 1.8, >= 1.8.1)
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
