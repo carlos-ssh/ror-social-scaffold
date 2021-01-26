@@ -15,7 +15,7 @@
     <img src="https://avatars1.githubusercontent.com/u/22258274?s=40&u=4b0efdeaefba270cb9e54efb81e7f77057f69789&v=4" alt="Logo" width="40" height="40">
   </a>
 
-  <h3 align="center">Social Media Website</h3>
+  <h3 align="center">Stay in Touch</h3>
 
   <p align="center">
     This is a Milestone project.
@@ -23,11 +23,11 @@
     <a href="https://github.com/carlos-ssh/ror-social-scaffold/blob/feature/docs/SOCIAL%20MEDIA%20RoR.svg"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://github.com/carlos-ssh/ror-social-scaffold">View Demo(SOON!)</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/carlos-ssh/ror-social-scaffold/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/carlos-ssh/ror-social-scaffold/issues">Request Feature</a>
   </p>
 </p>
 
