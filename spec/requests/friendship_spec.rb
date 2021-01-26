@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe 'Friendship requests' do
   let(:create_users) do
-    User.create(name: 'carlos', email: 'carlos@carlos.com', password: 'omar')
-    User.create(name: 'omar', email: 'omar@omar.com', password: 'omar')
+    User.create(name: 'carlos', email: 'carlos@carlos.com', password: 'omar123')
+    User.create(name: 'omar', email: 'omar@omar.com', password: 'omar123')
   end
 
   describe 'POST /create' do

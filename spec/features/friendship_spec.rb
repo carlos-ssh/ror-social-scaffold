@@ -1,12 +1,12 @@
-require 'spec_helper'
+require 'rails_helper'
 
 RSpec.describe 'Friendships features' do
   let(:sign_up) do
     visit('/')
     click_link('Sign up')
     within('form') do
-      fill_in 'Name', with: 'Carlos'
-      fill_in 'Email', with: 'carlos@helloworld.com'
+      fill_in 'Name', with: 'carls'
+      fill_in 'Email', with: 'carlos@hello.com'
       fill_in 'user_password', with: 'carlos'
       fill_in 'user_password_confirmation', with: 'carlos'
       click_button 'Sign up'
