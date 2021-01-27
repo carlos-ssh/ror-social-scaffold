@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Post features' do
-  let('Sign up') do
+  let(:sign_up) do
     visit('/')
     click_link('Sign up')
     within('form') do
