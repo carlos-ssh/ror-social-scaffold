@@ -22,11 +22,13 @@ RSpec.describe Comment do
       expect(comment.macro).to eq(:belongs_to)
     end
   end
+
   describe 'Validations' do
     describe 'content' do
       it 'must be present' do
-        expect(comment.errors[:content]).to eq(["Can't be blank"])
+        expect(comment.errors[:content]).to eq(["can't be blank"])
       end
+
       it 'must no exceed 200 characters' do
         content = (1..200).to_a.join
         comment.content = content
