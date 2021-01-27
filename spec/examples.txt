@@ -14,8 +14,8 @@ example_id                                | status | run_time        |
 ./spec/features/post_spec.rb[1:2:1]       | passed | 2.32 seconds    |
 ./spec/features/user_spec.rb[1:1:1]       | passed | 3.67 seconds    |
 ./spec/features/user_spec.rb[1:2:1]       | passed | 4.81 seconds    |
-./spec/helpers/user_helper_spec.rb[1:1:1] | passed | 0.07086 seconds |
-./spec/helpers/user_helper_spec.rb[1:1:2] | passed | 0.10756 seconds |
+./spec/helpers/user_helper_spec.rb[1:1:1] | passed | 0.42088 seconds |
+./spec/helpers/user_helper_spec.rb[1:1:2] | passed | 0.26411 seconds |
 ./spec/models/friendship_spec.rb[1:1:1]   | passed | 0.07625 seconds |
 ./spec/models/friendship_spec.rb[1:1:2]   | passed | 0.11572 seconds |
 ./spec/requests/friendship_spec.rb[1:1:1] | passed | 0.16418 seconds |
