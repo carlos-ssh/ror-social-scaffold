@@ -53,4 +53,9 @@ class FriendshipsController < ApplicationController
       redirect_to user_friendship_path, alert: 'Unable to decline request'
     end
   end
+  private
+  def create_mutual_relationship
+    @friendship.update(confirmed: true)
+    Friendship.create(user_id: params[:user_id], friend_id: params[:id], confirmed: true)
+  end
 end
