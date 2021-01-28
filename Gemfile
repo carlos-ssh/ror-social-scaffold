@@ -32,6 +32,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'capistrano', '~> 3.14', '>= 3.14.1'
 gem 'devise'
 gem 'spring'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
