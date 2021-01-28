@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap");
+
 $primary-color-dark: #689f38;
 $primary-color: #8bc34a;
 $primary-color-light: #dcedc8;
@@ -263,9 +264,8 @@ form {
   }
 
   .post-comments-section {
-    margin: 5px;
     width: 90%;
-    margin-left: 10%;
+    margin: 5px 5px 5px 10%;
 
     .post-comments {
       position: relative;
