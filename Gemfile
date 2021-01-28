@@ -29,7 +29,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 
 gem 'bootsnap', '>= 1.1.0', require: false
-
+gem 'capistrano', '~> 3.14', '>= 3.14.1'
 gem 'devise'
 gem 'spring'
 group :development, :test do
