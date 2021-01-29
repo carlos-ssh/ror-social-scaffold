@@ -23,7 +23,7 @@
     <a href="https://github.com/carlos-ssh/ror-social-scaffold/blob/feature/docs/SOCIAL%20MEDIA%20RoR.svg"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/carlos-ssh/ror-social-scaffold">View Demo(SOON!)</a>
+    <a href="https://app-socialmedia.herokuapp.com/">View Demo</a>
     ·
     <a href="https://github.com/carlos-ssh/ror-social-scaffold/issues">Report Bug</a>
     ·
@@ -61,7 +61,7 @@
 
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- ABOUT THE PROJECT 
 ## About The Project
 
 
@@ -76,7 +76,7 @@ Here's why:
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
-
+-->
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
